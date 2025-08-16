@@ -4,7 +4,7 @@ const Herosection = () => {
 	return (
 		<div className='mb-4'>
 			<div className='container flex '>
-				<div>
+				<div className='grow basis-0'>
 					<h1 className='text-4xl font-bold text-white font-urbanist leading-normal'>Want to Turn Social Media Into a Profitable Career?</h1>
 					<h2 className='mt-3 text-4xl text-[#00E7F9] font-bold font-urbanist text-shadow-pink leading-normal'>Discover your way to success with Fametonic:</h2>
 					<ul className='text-white text-base font-figtree font-semibold mt-4 space-y-3'>
@@ -33,8 +33,10 @@ const Herosection = () => {
 					</div>
 					<p className='text-[#ABABAB] font-figtree text-xs font-medium leading-normal'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
 				</div>
-				<div>
-					<Image src='/hero-section.png' alt='Featured Image' width={666} height={679} />
+				<div className='relative grow basis-0'>
+					<div className='w-[666px] h-[679px] -top-[66px] flex items-center justify-center overflow-hidden absolute max-w-[unset]'>
+						<Image src='/hero-section.png' alt='Featured Image' width={666} height={679} />
+					</div>
 				</div>
 			</div>
 		</div>
