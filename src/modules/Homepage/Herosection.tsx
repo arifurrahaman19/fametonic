@@ -4,9 +4,9 @@ const Herosection = () => {
 	return (
 		<div className='mb-4'>
 			<div className='container flex '>
-				<div className='grow basis-0'>
-					<h1 className='text-4xl font-bold text-white font-urbanist leading-normal'>Want to Turn Social Media Into a Profitable Career?</h1>
-					<h2 className='mt-3 text-4xl text-[#00E7F9] font-bold font-urbanist text-shadow-pink leading-normal'>Discover your way to success with Fametonic:</h2>
+				<div className='grow basis-0 mt-[22px]'>
+					<h1 className='text-8.75 font-bold text-white font-urbanist leading-[normal]'>Want to Turn Social Media Into a Profitable Career?</h1>
+					<h2 className='text-8.75 text-[#00E7F9] font-bold font-urbanist text-shadow-pink leading-[normal]'>Discover your way to success with Fametonic:</h2>
 					<ul className='text-white text-base font-figtree font-semibold mt-4 space-y-3'>
 						<li className='flex items-center gap-2.5'>
 							<span>✨</span>

@@ -16,6 +16,7 @@
 
 	/* Font sizes */
 	--text-5\.5: 22px;
+	--text-8\.75: 35px;
 
 	/* Color */
 	--color-top-banner-from: #fc004e;
@@ -35,8 +36,8 @@
 	@media (min-width: 1024px) {
 		width: 100% !important;
 		max-width: 100% !important;
-		padding-left: 200px !important;
-		padding-right: 200px !important;
+		padding-left: 215px !important;
+		padding-right: 215px !important;
 	}
 }
 

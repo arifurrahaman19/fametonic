@@ -15,10 +15,10 @@ const Header = () => {
 					</Link>
 				</div>
 				<nav className='ml-auto'>
-					<ul className='flex space-x-4'>
+					<ul className='flex space-x-10'>
 						{menuItems.map((item) => (
 							<li key={item.label}>
-								<a href={item.href} className='text-[#A9A9A9]'>
+								<a href={item.href} className='text-[#A9A9A9] text-[18px] font-semibold font-figtree'>
 									{item.label}
 								</a>
 							</li>
