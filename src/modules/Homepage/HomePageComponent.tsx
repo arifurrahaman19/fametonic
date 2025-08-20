@@ -30,9 +30,9 @@ const Herosection = () => {
 					</li>
 				</ul>
 				<GetStartedButton className='hidden lg:flex flex-col justify-center items-center w-fit my-[28px]' />
-				<p className='text-[#ABABAB] font-figtree text-center lg:text-left mt-[22px] lg:mt-0 text-xs font-medium leading-[normal]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
+				<p className='text-[#ABABAB] font-figtree text-center lg:text-left mt-[22px] lg:mt-0 text-xs font-medium leading-[normal] px-2.5 lg:px-0'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
 				<p className='text-[#ABABAB] font-figtree text-center lg:text-left text-[10px] font-medium leading-[normal] mt-3'>Fametonic 2025 ©All Rights Reserved.</p>
-				<GetStartedButton className='flex lg:hidden flex-col justify-center items-center w-fit my-[28px]' />
+				<GetStartedButton className='flex w-full [&_button]:w-full lg:hidden flex-col justify-center items-center my-[28px]' />
 			</div>
 			<div className='relative grow basis-0 order-0 lg:order-1'>
 				<div className='w-full h-auto lg:w-[666px] lg:h-[679px] relative lg:absolute -top-[118px] lg:-top-[66px] lg:-right-[114px] -z-10 flex items-center justify-center overflow-hidden max-w-[unset]'>

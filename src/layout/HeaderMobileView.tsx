@@ -9,7 +9,7 @@ const HeaderMobileView = ({ menuItems }: { menuItems: { label: string; href: str
 		<div className='flex justify-end lg:hidden text-white container py-9 gap-[93px]'>
 			<div className='text-2xl font-bold'>
 				<Link href='/'>
-					<Image src='/fametonic-logo.svg' alt='Fametonic Logo' width={173} height={74} />
+					<Image src='/fametonic-logo.svg' alt='Fametonic Logo' width={173} height={74} className='w-[105px] lg:w-[173px]' />
 				</Link>
 			</div>
 			<Drawer direction='right'>
